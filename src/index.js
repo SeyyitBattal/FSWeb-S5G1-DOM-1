@@ -78,8 +78,10 @@ ustParagraf[0].textContent = "Özellikler";
 ustParagraf[1].textContent = "Hakkında";
 
 const paragraflar = document.querySelectorAll(".top-content .text-content p");
-paragraflar[0].textContent = "BURASI EKSİK!!";
-paragraflar[1].textContent = "BURASI EKSİK!!";
+paragraflar[0].textContent =
+  "Özellikler içeriği elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+paragraflar[1].textContent =
+  "Hakkında içeriği elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, ininterdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metusscelerisque quis.";
 
 const middleImg = document.querySelector("#middle-img");
 middleImg.setAttribute("src", "../mocks/img/accent.png");
@@ -94,9 +96,12 @@ altParagraf[2].textContent = "Vizyon";
 const altParagraflar = document.querySelectorAll(
   ".bottom-content .text-content p"
 );
-altParagraflar[0].textContent = "BURASI EKSİK!!";
-altParagraflar[1].textContent = "BURASI EKSİK!!";
-altParagraflar[2].textContent = "BURASI EKSİK!!";
+altParagraflar[0].textContent =
+  "Servisler içeriği elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metusscelerisque quis.";
+altParagraflar[1].textContent =
+  "Ürünler içeriği elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, ininterdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metusscelerisque quis.";
+altParagraflar[2].textContent =
+  "Vizyon içeriği elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, ininterdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metusscelerisque quis.";
 
 const contactSection = document.querySelector(".contact h4");
 contactSection.textContent = "İletişim";
