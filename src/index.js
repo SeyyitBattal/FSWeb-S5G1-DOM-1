@@ -69,3 +69,14 @@ mukemmelBasilk.textContent = "Bu DOM Mükemmel";
 
 const mukemmelButton = document.querySelector(".cta .cta-text button");
 mukemmelButton.textContent = "Başlayın";
+
+const ctaImg = document.getElementById("cta-img");
+ctaImg.setAttribute("src", "../mocks/img/cta.png");
+
+const ustParagraf = document.querySelectorAll(".top-content .text-content h4");
+ustParagraf[0].textContent = "Özellikler";
+ustParagraf[1].textContent = "Hakkında";
+
+const paragraflar = document.querySelectorAll(".top-content .text-content p");
+paragraflar[0].textContent = "BURASI EKSİK!!";
+paragraflar[1].textContent = "BURASI EKSİK!!";
