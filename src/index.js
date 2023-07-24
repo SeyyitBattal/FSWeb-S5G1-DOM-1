@@ -80,3 +80,35 @@ ustParagraf[1].textContent = "Hakkında";
 const paragraflar = document.querySelectorAll(".top-content .text-content p");
 paragraflar[0].textContent = "BURASI EKSİK!!";
 paragraflar[1].textContent = "BURASI EKSİK!!";
+
+const middleImg = document.querySelector("#middle-img");
+middleImg.setAttribute("src", "../mocks/img/accent.png");
+
+const altParagraf = document.querySelectorAll(
+  ".bottom-content .text-content h4"
+);
+altParagraf[0].textContent = "Servisler";
+altParagraf[1].textContent = "Ürünler";
+altParagraf[2].textContent = "Vizyon";
+
+const altParagraflar = document.querySelectorAll(
+  ".bottom-content .text-content p"
+);
+altParagraflar[0].textContent = "BURASI EKSİK!!";
+altParagraflar[1].textContent = "BURASI EKSİK!!";
+altParagraflar[2].textContent = "BURASI EKSİK!!";
+
+const contactSection = document.querySelector(".contact h4");
+contactSection.textContent = "İletişim";
+
+const contactSectionP = document.querySelectorAll(".contact p");
+contactSectionP[0].textContent =
+  "100 numara Bilmem ne sokak Ankara'da bir semt, Türkiye";
+contactSectionP[1].textContent = "+90 (123) 456-7899";
+contactSectionP[2].textContent = "satis@birsirketsitesi.com.tr";
+
+const footerA = document.getElementsByTagName("footer");
+footerA[0].setAttribute("class", "bold");
+footerA[0].textContent = "Copyright Bir Şirket Sitesi 2022";
+footerA[0].style.color = "grey";
+footerA[0].style.fontWeight = "bold";
